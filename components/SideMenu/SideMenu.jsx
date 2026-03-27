@@ -8,6 +8,7 @@ import {
   MedicineBoxOutlined,
   CalendarOutlined,
   ExperimentOutlined,
+  PlayCircleOutlined,
   MenuFoldOutlined,
   MenuUnfoldOutlined,
   HeartOutlined,
@@ -21,6 +22,7 @@ const NAV_ITEMS = [
   { key: '/doctors', icon: <MedicineBoxOutlined />, label: 'Doctors' },
   { key: '/appointments', icon: <CalendarOutlined />, label: 'Appointments' },
   { key: '/algorithm', icon: <ExperimentOutlined />, label: 'Algorithm' },
+  { key: '/walkthrough', icon: <PlayCircleOutlined />, label: 'How It Works' },
 ];
 
 const SideMenu = () => {
